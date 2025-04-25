@@ -25,11 +25,11 @@ button.addEventListener('click', function() {
         person.section = inputs[3].value;
         person.role = inputs[4].value;
 
-        console.log(person)
-
         const p = JSON.stringify(person);
+        console.log('JSON Format')
         console.log(p)
         const s = JSON.parse(p);
+        console.log('Object Format')
         console.log(s)
         
         
